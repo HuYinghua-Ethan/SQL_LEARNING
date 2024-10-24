@@ -7,7 +7,6 @@ DROP DATABASE hyh_03;
 # 创建一个使用utf8字符集的hyh_db02数据库
 CREATE DATABASE hyh_db02 CHARACTER SET utf8
 
-
 # 创建一个使用utf8字符集，并带校对规则的hyh_db03数据库
 CREATE DATABASE hyh_db03 CHARACTER SET utf8 COLLATE utf8_bin
 # 校对规则 utf8_bin 区分大小写 默认utf8_gereral_ci 不区分大小写
